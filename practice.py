@@ -15,19 +15,26 @@
 # b = 20
 
 # print(a + b)
+##
 
 # import math;
 # print(math.sqrt(49));
+##
 
 # name =  "Nazil";
 # age = 18;
 # print(name);
 # print(age);
+##
 
-name = "Arman"
-age = 20
-marks = 85
+# name = "Arman"
+# age = 20
+# marks = 85
 
-print("Name:", name)
-print("Age:", age)
-print("Marks:", marks)
+# print("Name:", name)
+# print("Age:", age)
+# print("Marks:", marks)
+##
+
+# print("Arman", 20, 85, sep=" | ")
+
