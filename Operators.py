@@ -72,7 +72,7 @@ print(a is c)
 print("Py" in "Python")
 
 # NOT IN
-print(50 not in numbers)
+# print(50 not in numbers)
 
 # Bitwise Operators
 a = 5
