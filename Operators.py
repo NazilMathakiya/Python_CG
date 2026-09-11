@@ -35,3 +35,19 @@ print(a < b)
 print(a > b)
 print(a <= b)
 print(a >= b)
+
+# Logical Operators
+# AND
+age = 20
+
+print(age >= 18 and age <= 60)
+
+# OR
+age = 15
+
+print(age < 18 or age > 60)
+
+# NOT
+x = True
+
+print(not x)
