@@ -54,4 +54,10 @@ text.count("o")   #2
 # Len
 text = "Python"
 
-print(len(text))
+print(len(text)) #6
+
+# ex
+text = "Python"
+text = "J" + text[1:]
+
+print(text)  #jython
