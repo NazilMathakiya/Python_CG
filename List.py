@@ -37,3 +37,6 @@ print(numbers)  #[10, 15, 20, 30]
 
 
 # extend()
+numbers.extend([40, 50])
+
+print(numbers) #[10, 15, 20, 30, 40, 50]
