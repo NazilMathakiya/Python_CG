@@ -80,3 +80,8 @@ print(20 in numbers)
 print(50 not in numbers)  #True , True
 
 
+# important list method
+numbers = [30, 10, 40, 20]
+
+numbers.sort()
+print(numbers)  #[10, 20, 30, 40]
