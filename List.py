@@ -50,3 +50,15 @@ numbers.remove(20)
 
 print(numbers)  #[10, 30, 20]
 
+# pop()
+numbers = [10, 20, 30]
+
+x = numbers.pop()
+
+print(x)
+print(numbers)   #30 , [10, 20]
+# specific index
+numbers.pop(0)
+
+
+
