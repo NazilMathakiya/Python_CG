@@ -91,3 +91,9 @@ numbers.sort(reverse=True)
 
 # reverse
 numbers.reverse()
+
+# copy
+new_list = numbers.copy()
+
+#index
+numbers.index(30)
