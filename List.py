@@ -72,3 +72,11 @@ del numbers[1]
 
 print(numbers)  #[10, 30]
 
+
+# Searching
+numbers = [10, 20, 30, 40]
+
+print(20 in numbers)
+print(50 not in numbers)  #True , True
+
+
