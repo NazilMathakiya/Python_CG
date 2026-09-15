@@ -61,4 +61,14 @@ print(numbers)   #30 , [10, 20]
 numbers.pop(0)
 
 
+# clear()
+numbers.clear()
+
+
+# del
+numbers = [10, 20, 30]
+
+del numbers[1]
+
+print(numbers)  #[10, 30]
 
