@@ -40,3 +40,13 @@ print(numbers)  #[10, 15, 20, 30]
 numbers.extend([40, 50])
 
 print(numbers) #[10, 15, 20, 30, 40, 50]
+
+
+# Remove Element
+# remove()
+numbers = [10, 20, 30, 20]
+
+numbers.remove(20)
+
+print(numbers)  #[10, 30, 20]
+
