@@ -109,3 +109,15 @@ for num in numbers:
 # with index
 for i in range(len(numbers)):
     print(i, numbers[i])
+
+
+# nested list
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(matrix[0])
+print(matrix[1][2])   #[1, 2, 3] , 6
+
