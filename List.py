@@ -97,3 +97,6 @@ new_list = numbers.copy()
 
 #index
 numbers.index(30)
+
+# count
+numbers.count(20)
