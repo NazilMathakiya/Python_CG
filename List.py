@@ -100,3 +100,12 @@ numbers.index(30)
 
 # count
 numbers.count(20)
+
+# traversing
+numbers = [10, 20, 30]
+
+for num in numbers:
+    print(num)
+# with index
+for i in range(len(numbers)):
+    print(i, numbers[i])
