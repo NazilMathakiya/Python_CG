@@ -85,3 +85,9 @@ numbers = [30, 10, 40, 20]
 
 numbers.sort()
 print(numbers)  #[10, 20, 30, 40]
+
+# descending
+numbers.sort(reverse=True)
+
+# reverse
+numbers.reverse()
