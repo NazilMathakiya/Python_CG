@@ -37,4 +37,52 @@ s.remove(2)  #give error if element does not exist keyerror
 s.discard(10)  #no error
 
 
+# pop()
+s.pop()
+
+
+# clear()
+s.clear()
+
+
+# set operations
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+# union
+print(a | b)   #{1, 2, 3, 4, 5, 6}
+a.union(b)
+
+
+# Intersection
+print(a & b)  #{3, 4}
+a.intersection(b)
+
+
+# Difference
+print(a - b)    #{1, 2}
+
+
+# Symmetric Difference
+print(a ^ b)   #{1, 2, 5, 6}
+
+
+# membership
+numbers = {10, 20, 30}
+
+print(20 in numbers)   #true
+print(50 in numbers)   #false
+
+
+# Set Comparison
+a = {1, 2}
+b = {1, 2, 3}
+
+print(a.issubset(b))
+print(b.issuperset(a))
+
+
+a.isdisjoint(b)
+# Checks whether two sets have no common elements.
+
 
