@@ -23,3 +23,16 @@ t = (10, 20, 30)
 for value in t:
     print(value)
 
+
+# Immutability
+# You cannot modify a tuple.
+t = (10, 20, 30)
+
+t[0] = 100   #TypeError
+
+
+# method
+t = (10, 20, 20, 30)
+
+print(t.count(20))   #2
+print(t.index(30))   #3
