@@ -86,3 +86,8 @@ a.isdisjoint(b)
 # Checks whether two sets have no common elements.
 
 
+# Traversing
+numbers = {10, 20, 30}
+
+for num in numbers:
+    print(num)
