@@ -91,3 +91,9 @@ numbers = {10, 20, 30}
 
 for num in numbers:
     print(num)
+
+
+# Set Comprehension
+squares = {x * x for x in range(5)}
+
+print(squares)   #{0, 1, 4, 9, 16}
