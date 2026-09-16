@@ -121,3 +121,30 @@ matrix = [
 print(matrix[0])
 print(matrix[1][2])   #[1, 2, 3] , 6
 
+# Built-in-function
+numbers = [10, 20, 30, 40]
+
+print(len(numbers))  #4
+print(sum(numbers))  #100
+print(max(numbers))  #40
+print(min(numbers))  #10
+
+
+# List assignment vs copy
+a = [1, 2, 3]
+b = a
+
+b.append(4)
+
+print(a)   #[1, 2, 3, 4]
+
+# copy
+a = [1, 2, 3]
+b = a.copy()
+
+b.append(4)
+
+print(a)
+print(b)    #[1, 2, 3] , [1, 2, 3, 4]
+
+
