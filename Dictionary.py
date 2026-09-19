@@ -17,3 +17,7 @@ print(student)
 student.pop("age")
 
 # Remove the last item:
+student.popitem()
+
+# Remove everything:
+student.clear()
