@@ -85,3 +85,12 @@ for ch in text:
 print(freq)   #{'b': 1, 'a': 3, 'n': 2}
 
 
+# dict with list
+data = {
+    "fruits": ["apple", "banana"],
+    "numbers": [1, 2, 3]
+}
+
+print(data["fruits"][0])  #apple
+
+
