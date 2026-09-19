@@ -69,3 +69,19 @@ students = {
 }
 
 print(students["student1"]["marks"])
+
+
+# count character
+text = "banana"
+
+freq = {}
+
+for ch in text:
+    if ch in freq:
+        freq[ch] += 1
+    else:
+        freq[ch] = 1
+
+print(freq)   #{'b': 1, 'a': 3, 'n': 2}
+
+
