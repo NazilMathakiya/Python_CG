@@ -50,6 +50,18 @@ def student(**data):
 student(name="Nazil", age=20, course="CSE")
 
 
+# function with list
+def find_max(numbers):
+    maximum = numbers[0]
 
+    for num in numbers:
+        if num > maximum:
+            maximum = num
+
+    return maximum
+
+arr = [10, 5, 25, 8]
+
+print(find_max(arr))
 
 
