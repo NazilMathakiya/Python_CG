@@ -34,3 +34,12 @@ print(squares)    #{1, 4, 9, 16, 25}
 # dictionary'
 squares = {i: i * i for i in range(1, 6)}
 print(squares)
+
+
+
+# example
+arr = [1, 2, 3, 4, 5]
+
+squares = [x * x for x in arr]
+
+print(squares)
