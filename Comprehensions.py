@@ -1,4 +1,4 @@
-# Normal 
+# Normal Way
 squares = []
 
 for i in range(1, 6):
