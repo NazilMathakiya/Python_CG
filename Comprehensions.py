@@ -15,4 +15,4 @@ print(squares)
 
 
 # syntex
-[expression for item in iterable]
+# [expression for item in iterable]
