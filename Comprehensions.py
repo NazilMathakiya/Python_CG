@@ -23,6 +23,6 @@ print(even)
 
 # if else
 result = ["Even" if i % 2 == 0 else "Odd" for i in range(1, 6)]
-print(result)
+print(result)    #['Odd', 'Even', 'Odd', 'Even', 'Odd']
 
 
