@@ -29,3 +29,16 @@ def total(n):
     return n + total(n - 1)
 
 print(total(5))
+
+
+
+# find the sum of list
+def array_sum(arr, index):
+    if index == len(arr):
+        return 0
+
+    return arr[index] + array_sum(arr, index + 1)
+
+arr = [10, 20, 30]
+
+print(array_sum(arr, 0))   #60
