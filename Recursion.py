@@ -42,3 +42,4 @@ def array_sum(arr, index):
 arr = [10, 20, 30]
 
 print(array_sum(arr, 0))   #60
+
