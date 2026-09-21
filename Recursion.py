@@ -39,6 +39,6 @@ def array_sum(arr, index):
 
     return arr[index] + array_sum(arr, index + 1)
 
-arr = [10, 20]
+arr = [10, 20, 30]
 
 print(array_sum(arr, 0))   #100
