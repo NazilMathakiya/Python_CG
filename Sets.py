@@ -87,7 +87,7 @@ a.isdisjoint(b)
 
 
 # Traversing
-numbers = {10, 20, 30}
+numbers = {10, 20, 30,40}
 
 for num in numbers:
     print(num)
