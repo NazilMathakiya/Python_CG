@@ -6,7 +6,7 @@ def count(n):
     print(n)
     count(n - 1)
 
-count(5)
+count(6)
 
 
 
