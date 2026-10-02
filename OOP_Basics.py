@@ -70,3 +70,15 @@ class Dog(Animal):
 
 dog = Dog()
 dog.speak()
+
+
+# Example Node:
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+node = Node(10)
+
+print(node.value)
+print(node.next)
