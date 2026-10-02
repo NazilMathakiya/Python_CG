@@ -31,3 +31,31 @@ print(calc.add(10, 20))
 
 
 
+# class variable
+class Student:
+    college = "ABC College"
+
+    def __init__(self, name):
+        self.name = name
+
+a = Student("Nazil")
+b = Student("Rahul")
+
+print(a.college)
+print(b.college)
+
+
+
+# Inheritance
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    pass
+
+dog = Dog()
+dog.speak()
+
+
+
