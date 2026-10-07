@@ -15,7 +15,7 @@ greet("Nazil")    #name → parameter ,, "Nazil" → argument
 def add(a, b):
     return a + b
 
-result = add(13, 36)
+result = add(14, 36)
 
 print(result)  #30
 
