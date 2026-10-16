@@ -102,7 +102,7 @@ numbers.index(30)
 numbers.count(20)
 
 # traversing
-numbers = [10, 20, 30]
+numbers = [10, 21, 30]
 
 for num in numbers:
     print(num)
