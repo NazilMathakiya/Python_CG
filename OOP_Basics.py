@@ -13,7 +13,7 @@ class Student:
         self.name = name
         self.age = age
 
-student = Student("Nazil", 20)
+student = Student("Nazil", 30)
 
 print(student.name)
 print(student.age)

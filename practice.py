@@ -40,3 +40,29 @@
 
 ###
 
+
+
+
+# test question:
+# missing number
+num = [1, 2, 3, 5]
+
+for i in range(1, 6):
+    if i not in num:
+        print(i)
+
+
+# second largest
+num = [10, 5, 20, 8, 15]
+
+largest = num[0]
+second = num[0]
+
+for i in num:
+    if i > largest:
+        second = largest
+        largest = i
+    elif i > second and i != largest:
+        second = i
+
+print(second)
